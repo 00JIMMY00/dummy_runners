@@ -19,6 +19,6 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /path/to/your/app
+            cd /home/jimmy/dummy_runners
             git pull origin main
 
